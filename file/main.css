@@ -126,6 +126,8 @@ li:hover {
 .sidebar li {
   width: 100%;
 }
+
+/* hide in laptop size */
 .menu {
   display: none;
 }
@@ -159,6 +161,11 @@ li:hover {
   }
   .logo {
     margin-right: 100px;
+  }
+
+  /* hide button in laptop size and display in moblie size */
+  .menu {
+    display: block;
   }
 }
 
