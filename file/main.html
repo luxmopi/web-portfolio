@@ -11,10 +11,12 @@
   </head>
   <body>
     <nav id="header">
+      <!-- logo -->
       <span class="logo"><p>Chesda</p></span>
 
+      <!-- mobile sidebar -->
       <ul class="sidebar">
-        <li onclick="hideSiderbar()">
+        <li onclick="hideSiderbar()" class="close-menu">
           <a href="#">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -38,10 +40,12 @@
         <li>
           <a href="">About Me</a>
         </li>
-        <button>Hier Me</button>
+        <button class="btn-mobile">Chat</button>
       </ul>
+      <!-- end of mobile sidebar -->
 
-      <ul>
+      <!--laptop sidebar  -->
+      <ul class="link-laptop">
         <li class="m">
           <a href="">My Work</a>
         </li>
@@ -53,8 +57,11 @@
         </li>
       </ul>
 
-      <button class="btn-laptop m">Hier Me</button>
+      <button class="btn-laptop m">Chat</button>
       <ul>
+        <!-- end of laptop sidebar -->
+
+        <!-- mobile menu button -->
         <li class="menu" onclick="showSidebar()">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -70,9 +77,10 @@
         </li>
       </ul>
     </nav>
+    <div class="magin-for-nav"></div>
     <section class="page-header">
       <div class="page-info">
-        <span class="h11"><h1>Designer, Frontend Developer & Mentor</h1></span>
+        <span class="h11"><h1>Frontend Developer</h1></span>
         <div class="more-info">
           <p>
             I design and code beautifully simple things, and I love what I do.
@@ -81,6 +89,88 @@
       </div>
       <div class="profile">
         <img src="/hand-drawn-illustration-blogger.png" alt="" />
+      </div>
+    </section>
+
+    <section class="intro">
+      <div class="img-laptop">
+        <img src="/photo/hero-devices.svg" alt="" />
+      </div>
+      <div class="intro-info">
+        <span><h2>Hi, I'm Matt. Nice to meet you.</h2></span>
+        <div class="small-info">
+          <p>
+            Since beginning my journey as a freelance designer 12 years ago,
+            I've done remote work for agencies, consulted for startups, and
+            collaborated with talented people to create digital products for
+            both business and consumer use. I'm quietly confident, naturally
+            curious, and perpetually working on improving my chops.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="table-of-thing">
+      <div class="table">
+        <span class="head-thing">Designer</span>
+        <div class="thing-i-like">
+          <p>
+            I value simple content structure, clean design patterns, and
+            thoughtful interactions.
+          </p>
+        </div>
+
+        <div class="thing-i-do">Things I enjoy designing:</div>
+        <ul class="thing-i-like-one">
+          <li class="thing-i-like">UX, UI, Web, Apps, Logos</li>
+        </ul>
+        <div class="thing-i-do">Design Tools:</div>
+        <ul>
+          <li class="thing-i-like">Sketch</li>
+          <li class="thing-i-like">Pen & Paper</li>
+        </ul>
+      </div>
+
+      <div class="table">
+        <span class="head-thing">Frontend Developer</span>
+        <div class="thing-i-like">
+          <p>
+            I like to code things from scratch, and enjoy bringing ideas to life
+            in the browser.
+          </p>
+        </div>
+        <div class="thing-i-do">Languages I speak:</div>
+        <ul class="thing-i-like-one">
+          <li class="thing-i-like">HTML, Pug, Slim, CSS, Sass, Git</li>
+        </ul>
+        <div class="thing-i-do">Dev Tools:</div>
+        <ul>
+          <li class="thing-i-like">Bootstrap</li>
+          <li class="thing-i-like">Tailwind CSS</li>
+          <li class="thing-i-like">vs code</li>
+        </ul>
+      </div>
+
+      <div class="table">
+        <span class="head-thing">Mentor</span>
+        <div class="thing-i-like">
+          <p>
+            I genuinely care about people, and enjoy helping them work on their
+            craft.
+          </p>
+        </div>
+        <div class="thing-i-do"><p>Experiences I draw from:</p></div>
+        <ul class="thing-i-like-one">
+          <li class="thing-i-like">UX/UI, Product design, Freelancing</li>
+        </ul>
+
+        <div class="thing-i-do">Mentor Stats:</div>
+        <ul>
+          <li class="thing-i-like">30+ short courses</li>
+          <li class="thing-i-like">65+ bootcamps</li>
+          <li class="thing-i-like">65+ bootcamps</li>
+        </ul>
       </div>
     </section>
 
